@@ -19,3 +19,15 @@ header{
 footer{
   background-color: lightgray;
 }
+
+/* Break points for adaptive */
+@media (min-width:700px){
+  .wrapper{
+    grid-template-columns: 1fr 5fr 1fr;
+  }
+}
+@media (max-width:699px){
+  .wrapper{
+    grid-template-columns: 1fr 15fr 1fr;
+  }
+}
