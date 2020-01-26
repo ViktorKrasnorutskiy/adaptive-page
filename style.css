@@ -10,9 +10,7 @@
 }
 :focus, :active{outline: none;}
 a:focus, a:active{outline: none;}
-
 nav, footer, header, aside{display:block;}
-
 html, body{
   width:100%;
   height: 100%;
@@ -23,7 +21,6 @@ html, body{
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
 button::-moz-docus-inner{padding:0; border:0;}

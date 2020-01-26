@@ -1,0 +1,21 @@
+.root{
+  display: grid;
+  grid-template-rows: 1fr 10fr 1fr;
+  height: 100%;
+}
+
+header{
+  background-color: lightgray;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+.wrapper__content{
+  background-color: whitesmoke;
+}
+
+footer{
+  background-color: lightgray;
+}
